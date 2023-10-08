@@ -38,5 +38,6 @@ for (let i = 0; i < 100; i++) {
 
     }
 // buzzfizzDOMElement.innerHTML += boxString
-    buzzfizzDOMElement.append(boxDOMElement)
+// buzzfizzDOMElement.append(boxDOMElement)
+buzzfizzDOMElement.innerHTML += boxDOMElement.outerHTML
 }
